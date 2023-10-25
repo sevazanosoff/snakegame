@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" type="text/css" href="snake.css" />
+		<title>Snake Game</title>
+	</head>
+	<body>
+		<div id="game-container">
+			<div id="game-board"></div>
+			<div id="game-interface">
+				<span id="best-score">Лучший счет: 0</span>
+				<span id="current-score">Текущий счет: 0</span>
+				<button id="menu-button">Меню</button>
+				<button id="play-button">Играть</button>
+				<button id="exit-button">Выход</button>
+				<select id="game-modes">
+					<option value="classic">Классический</option>
+					<option value="no-death">Без смертей</option>
+					<option value="walls">Стены</option>
+					<option value="portal">Портал</option>
+					<option value="speed">Скорость</option>
+				</select>
+			</div>
+		</div>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/7.3.2/pixi.min.js"></script>
+		<script type="module" src="app.js"></script>
+	</body>
+</html>

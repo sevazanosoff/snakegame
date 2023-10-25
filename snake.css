@@ -1,0 +1,50 @@
+.snake {
+	background-color: green;
+	width: 20px;
+	height: 20px;
+}
+
+.food {
+	background-color: red;
+	width: 20px;
+	height: 20px;
+}
+
+#game-interface {
+	text-align: center;
+}
+
+#best-score {
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+#current-score {
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+#play-button,
+#exit-button {
+	font-size: 16px;
+	padding: 10px 20px;
+	margin: 5px;
+	cursor: pointer;
+}
+#menu-button {
+	font-size: 16px;
+	padding: 10px 20px;
+	margin: 5px;
+	cursor: pointer;
+}
+
+#game-modes {
+	font-size: 16px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+#game-interface {
+	z-index: 1;
+	position: relative;
+}
